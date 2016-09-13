@@ -66,5 +66,10 @@ public abstract class Command {
         this.targetIndex = targetIndex;
     }
     
+    /**
+     * Returns true if command mutates the data in the address book
+     * 
+     * @return true if command mutates data
+     */
     public abstract boolean isMutating();
 }
